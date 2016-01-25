@@ -1,0 +1,20 @@
+{
+  "name": "newproject",
+  "context": {
+    "box_name": "precise64",
+    "box_url": "http://files.vagrantup.com/precise64.box"
+  },
+  "operations": {
+    "discard": [
+      "README.md",
+      "LICENSE"
+    ],
+    "parse": [
+      "Vagrantfile",
+      "PROJECT-README"
+    ],
+    "move": [
+     { "PROJECT-README": "README.md" }
+    ]
+  }
+}

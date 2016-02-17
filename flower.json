@@ -17,5 +17,6 @@
     "move": [
      { "PROJECT-README": "README.md" }
     ]
-  }
+  },
+  "complete": "cd {{ name }}"
 }

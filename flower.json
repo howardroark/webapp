@@ -15,7 +15,8 @@
       "PROJECT-README"
     ],
     "move": [
-     { "PROJECT-README": "README.md" }
+     { "PROJECT-README": "README.md" },
+     { "project-name": "{{ name }}.txt" }
     ]
   }
 }

@@ -18,5 +18,5 @@
      { "PROJECT-README": "README.md" }
     ]
   },
-  "complete": "cd {{ name }}"
+  "complete": "cd {{ name }} && tree"
 }

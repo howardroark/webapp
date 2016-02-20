@@ -1,8 +1,8 @@
 {
   "name": "newproject",
   "context": {
-    "box_name": "precise64",
-    "box_url": "http://files.vagrantup.com/precise64.box"
+    "boxName": "precise64",
+    "boxUrl": "http://files.vagrantup.com/precise64.box"
   },
   "discard": [
     "README.md",

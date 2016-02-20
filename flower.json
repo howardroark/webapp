@@ -4,19 +4,17 @@
     "box_name": "precise64",
     "box_url": "http://files.vagrantup.com/precise64.box"
   },
-  "operations": {
-    "discard": [
-      "README.md",
-      "LICENSE",
-      "flower.json"
-    ],
-    "parse": [
-      "Vagrantfile",
-      "PROJECT-README"
-    ],
-    "move": [
-     { "PROJECT-README": "README.md" },
-     { "project-name": "{{ name }}.txt" }
-    ]
-  }
+  "discard": [
+    "README.md",
+    "LICENSE",
+    "flower.json"
+  ],
+  "parse": [
+    "Vagrantfile",
+    "PROJECT-README"
+  ],
+  "move": [
+   { "PROJECT-README": "README.md" },
+   { "project-name": "{{ name }}.txt" }
+  ]
 }

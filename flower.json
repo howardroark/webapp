@@ -1,12 +1,10 @@
 {
   "name": "newproject",
   "context": {
-    "boxName": "precise64",
-    "boxUrl": "http://files.vagrantup.com/precise64.box"
+    "box": "hashicorp/precise64"
   },
   "discard": [
     "README.md",
-    "LICENSE",
     "flower.json"
   ],
   "parse": [

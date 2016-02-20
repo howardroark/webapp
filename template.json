@@ -5,7 +5,7 @@
   },
   "discard": [
     "README.md",
-    "flower.json"
+    "template.json"
   ],
   "parse": [
     "Vagrantfile",

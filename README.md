@@ -1,4 +1,1 @@
-test-flower
-===========
-
-Pollinate "Flower" used for testing.
+See [Pollinate](https://github.com/everysquare/pollinate)

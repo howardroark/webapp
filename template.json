@@ -1,14 +1,14 @@
 {
   "name": "newproject",
   "context": {
-    "box": "hashicorp/precise64"
+    "container": "debian"
   },
   "discard": [
     "README.md",
     "template.json"
   ],
   "parse": [
-    "Vagrantfile",
+    "Dockerfile",
     "PROJECT-README"
   ],
   "move": [

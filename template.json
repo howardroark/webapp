@@ -1,16 +1,22 @@
 {
-  "name": "newproject",
-  "container": "debian",
+  # All data is available during `parse`
+
+  # Used for generation
+  "name": "webapp",
   "discard": [
     "README.md",
     "template.json"
   ],
   "parse": [
-    "Dockerfile",
-    "PROJECT-README"
+    "PROJECT-README",
+    "Dockerfile"
   ],
   "move": [
-   { "PROJECT-README": "README.md" },
-   { "project-name": "{{ name }}.txt" }
-  ]
+    { "PROJECT-README": "README.md" },
+    { "project-name": "{{ name }}.txt" }
+  ],
+
+  # Custom stuff
+  "container": "debian",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 }

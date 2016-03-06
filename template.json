@@ -1,8 +1,6 @@
 {
   "name": "newproject",
-  "context": {
-    "container": "debian"
-  },
+  "container": "debian",
   "discard": [
     "README.md",
     "template.json"

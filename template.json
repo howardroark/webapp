@@ -1,7 +1,4 @@
 {
-  # All data is available during `parse`
-
-  # Used for generation
   "name": "webapp",
   "discard": [
     "README.md",
@@ -15,8 +12,6 @@
     { "PROJECT-README": "README.md" },
     { "project-name": "{{ name }}.txt" }
   ],
-
-  # Custom stuff
   "container": "debian",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 }

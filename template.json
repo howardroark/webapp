@@ -1,17 +1,22 @@
 {
   "name": "webapp",
-  "discard": [
-    "README.md",
-    "template.json"
-  ],
   "parse": [
     "PROJECT-README",
-    "Dockerfile"
+    "Dockerfile",
+    "project-name.md"
+  ],
+  "discard": [
+    "README.md",
+    "filters",
+    "template.json"
   ],
   "move": [
     { "PROJECT-README": "README.md" },
-    { "project-name": "{{ name }}.txt" }
+    { "project-name.md": "{{ name }}.html" }
   ],
+  "filters": {
+    "markdown": "filters/markdown.js"
+  },
   "container": "debian",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 }

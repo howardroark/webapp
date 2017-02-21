@@ -1,1 +1,1 @@
-See [Pollinate](https://github.com/everysquare/pollinate)
+See [Pollinate](https://github.com/howardroark/pollinate)

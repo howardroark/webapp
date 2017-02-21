@@ -1,0 +1,14 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howardroark/{{ name }}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/howardroark/{{ name }}/issues"
+  },
+  "homepage": "https://github.com/howardroark/{{ name }}#readme"
+}
+

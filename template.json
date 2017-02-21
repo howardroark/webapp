@@ -1,22 +1,22 @@
 {
-  "name": "webapp",
+  "name": "merged",
   "parse": [
     "PROJECT-README",
-    "Dockerfile",
-    "project-name.html"
+    "PROJECT-package.json",
+    "Dockerfile"
+  ],
+  "merge": [
+    ["package.json", "PROJECT-package.json"]
   ],
   "discard": [
     "README.md",
     "filters",
-    "template.json"
+    "template.json",
+    "PROJECT-package.json"
   ],
   "move": [
-    { "PROJECT-README": "README.md" },
-    { "project-name.html": "{{ name }}.html" }
+    { "PROJECT-README": "README.md" }
   ],
-  "filters": {
-    "markdown": "filters/markdown.js"
-  },
-  "container": "debian",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 }
+

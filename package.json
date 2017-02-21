@@ -1,0 +1,19 @@
+{
+  "name": "@howardroark/webapp",
+  "version": "1.0.0",
+  "description": "project for testing pollinate with merge",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howardroark/webapp.git"
+  },
+  "author": "Andy Edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howardroark/webapp/issues"
+  },
+  "homepage": "https://github.com/howardroark/webapp#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

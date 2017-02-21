@@ -3,16 +3,21 @@
   "parse": [
     "PROJECT-README",
     "PROJECT-package.json",
+    "PROJECT-settings.json",
+    "PROJECT-settings-2.json",
     "Dockerfile"
   ],
   "merge": [
-    ["package.json", "PROJECT-package.json"]
+    ["package.json", "PROJECT-package.json"],
+    ["settings.json", "PROJECT-settings.json", "PROJECT-settings-2.json"]
   ],
   "discard": [
     "README.md",
     "filters",
     "template.json",
-    "PROJECT-package.json"
+    "PROJECT-package.json",
+    "PROJECT-settings.json",
+    "PROJECT-settings-2.json"
   ],
   "move": [
     { "PROJECT-README": "README.md" }

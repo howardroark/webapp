@@ -8,7 +8,7 @@
   },
   "bugs": {
     "url": "https://github.com/howardroark/{{ name }}/issues"
-  },
+  }
   "homepage": "https://github.com/howardroark/{{ name }}#readme"
 }
 
